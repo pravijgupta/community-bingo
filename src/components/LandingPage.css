@@ -1,0 +1,157 @@
+.landing-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    top: -120px;
+}
+
+.mygate-logo {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    z-index: 3;
+}
+
+.bingo-header {
+    width: 420px !important;
+    max-width: 100%;
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: -40px;
+    position: relative;
+    z-index: 3;
+}
+
+.cta-card {
+    background: white;
+    border: 4px solid #333;
+    border-radius: 45px;
+    padding: 15px 30px;
+    margin-top: -30px;
+    text-align: center;
+    width: 75.5%;
+    max-width: 75.5%;
+    min-height: auto;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #000;
+    font-style: normal;
+}
+
+.play-button {
+    background-color: transparent;
+    background-image: url('/button-box.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #2D3436;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 18px 48px 24px 48px;
+    cursor: pointer;
+    font-family: 'Retrobit', monospace;
+    transition: all 0.2s;
+    min-width: 180px;
+}
+
+.play-button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+}
+
+.play-button:active {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+}
+
+@container app (max-width: 480px) {
+    .landing-page {
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+
+    .landing-content {
+        top: 0;
+        gap: 5px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mygate-logo {
+        margin-top: 0;
+        margin-bottom: -10px;
+        width: 140px;
+    }
+
+    .cta-text {
+        font-size: 18px;
+    }
+
+    .bingo-header {
+        width: 90% !important;
+        max-width: 350px !important;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .cta-card {
+        width: 85%;
+        max-width: 85%;
+        padding: 25px 20px;
+        margin-top: 0;
+    }
+}
+
+.mute-button-landing {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    border: 4px solid #333;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 200;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
+.mute-button-landing:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mute-button-landing:active {
+    transform: translateY(0);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}

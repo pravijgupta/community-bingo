@@ -1,0 +1,179 @@
+.name-input-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.name-input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    top: -90px;
+}
+
+.mygate-logo {
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    z-index: 3;
+}
+
+.bingo-header {
+    width: 420px !important;
+    max-width: 100%;
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    position: relative;
+    z-index: 3;
+}
+
+.input-card {
+    background: white;
+    border: 4px solid #333;
+    border-radius: 45px;
+    padding: 15px 30px;
+    margin-top: -30px;
+    text-align: center;
+    width: 75.5%;
+    max-width: 75.5%;
+    min-height: auto;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.input-card h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: normal;
+}
+
+.name-input {
+    width: 90%;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-family: 'Retrobit', monospace;
+    border: 4px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.name-input:focus {
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 2px #ff6600;
+}
+
+.submit-button {
+    background-color: transparent;
+    background-image: url('/button-box.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #2D3436;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-size: 27px;
+    font-weight: normal;
+    padding: 18px 48px 24px 48px;
+    cursor: pointer;
+    font-family: 'FSPimlico-Bold_2', sans-serif;
+    transition: all 0.2s;
+    min-width: 180px;
+    width: auto;
+    box-shadow: none;
+}
+
+.submit-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+    box-shadow: none;
+}
+
+.submit-button:active:not(:disabled) {
+    transform: translateY(0);
+    filter: brightness(0.95);
+    box-shadow: none;
+}
+
+.submit-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@container app (max-width: 480px) {
+    .name-input-page {
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+
+    .name-input-content {
+        top: 0;
+        gap: 5px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mygate-logo {
+        margin-top: 0;
+        margin-bottom: -10px;
+        width: 140px;
+    }
+
+    .input-card h2 {
+        font-size: 18px;
+    }
+
+    .bingo-header {
+        width: 90% !important;
+        max-width: 350px !important;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .input-card {
+        margin-top: 0;
+        width: 85%;
+        max-width: 85%;
+    }
+}
+
+.mute-button-name {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    border: 4px solid #333;
+    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 200;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
+.mute-button-name:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mute-button-name:active {
+    transform: translateY(0);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}

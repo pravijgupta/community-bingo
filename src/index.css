@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Retrobit';
+  src: url('/fonts/retrobit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSPimlico-Bold_2';
+  src: url('/fonts/FSPimlico-Bold_2.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSPimlico-BlackItalic_2';
+  src: url('/fonts/FSPimlico-BlackItalic_2.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSPimlico-Black';
+  src: url('/fonts/FSPimlico-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Retrobit', monospace;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pixel-perfect borders using box-shadow */
+.pixel-border {
+  box-shadow:
+    0 -4px 0 0 #000,
+    4px 0 0 0 #000,
+    0 4px 0 0 #000,
+    -4px 0 0 0 #000;
+}
+
+.pixel-border-white {
+  box-shadow:
+    0 -4px 0 0 #fff,
+    4px 0 0 0 #fff,
+    0 4px 0 0 #fff,
+    -4px 0 0 0 #fff;
+}
+
+/* Orange gradient button */
+.btn-orange {
+  background: linear-gradient(180deg, #ff9933 0%, #ff6600 100%);
+  border: none;
+  color: #000;
+  font-family: 'Retrobit', monospace;
+  font-size: 18px;
+  padding: 12px 32px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.btn-orange:hover {
+  transform: scale(1.05);
+}
+
+.btn-orange:active {
+  transform: scale(0.95);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-out;
+}
