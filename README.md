@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="./public/readme/Bingo%20Screen.png" width="220" />
+  <img src="./public/readme/Landing%20page.png" width="220" />
   &nbsp;&nbsp;&nbsp;
   <img src="./public/readme/Result%20Screen.png" width="220" />
 </p>
@@ -55,7 +55,7 @@ Users:
 ## 🏠 Landing Page
 
 <p align="center">
-  <img src="./public/readme/Landing%20Page.png" width="260"/>
+  <img src="./public/readme/Landing%20Page.png" width="200"/>
 </p>
 
 ---
@@ -63,7 +63,7 @@ Users:
 ## ✍️ Name Entry Screen
 
 <p align="center">
-  <img src="./public/readme/Input%20Screen.png" width="260"/>
+  <img src="./public/readme/Input%20Screen.png" width="200"/>
 </p>
 
 ---
@@ -71,7 +71,7 @@ Users:
 ## 🎮 Bingo Gameplay
 
 <p align="center">
-  <img src="./public/readme/Bingo%20Screen.png" width="260"/>
+  <img src="./public/readme/Bingo%20Screen.png" width="200"/>
 </p>
 
 ---
@@ -79,7 +79,7 @@ Users:
 ## ✅ Selected Tiles State
 
 <p align="center">
-  <img src="./public/readme/Selected%20Tiles.png" width="260"/>
+  <img src="./public/readme/Selected%20Tiles.png" width="200"/>
 </p>
 
 ---
@@ -87,7 +87,7 @@ Users:
 ## 🎉 Personality Popup
 
 <p align="center">
-  <img src="./public/readme/Pop%20Up%20Screen.png" width="260"/>
+  <img src="./public/readme/Pop%20Up%20Screen.png" width="200"/>
 </p>
 
 ---
@@ -95,7 +95,7 @@ Users:
 ## 🏆 Result Screen
 
 <p align="center">
-  <img src="./public/readme/Result%20Screen.png" width="260"/>
+  <img src="./public/readme/Result%20Screen.png" width="200"/>
 </p>
 
 ---
