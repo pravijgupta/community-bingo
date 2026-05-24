@@ -126,6 +126,57 @@ The final result depends on the total number of bingo tiles selected.
 | 13–16 | The Society Legend    | You've seen it all. Been there, done that |
 
 ---
+---
+
+# 📸 Screenshots
+
+## 🏠 Landing Page
+
+<p align="center">
+  <img src="./public/readme/Landing%20Page.png" width="300"/>
+</p>
+
+---
+
+## ✍️ Name Entry Screen
+
+<p align="center">
+  <img src="./public/readme/Input%20Screen.png" width="300"/>
+</p>
+
+---
+
+## 🎮 Bingo Gameplay
+
+<p align="center">
+  <img src="./public/readme/Bingo%20Screen.png" width="300"/>
+</p>
+
+---
+
+## ✅ Selected Tiles State
+
+<p align="center">
+  <img src="./public/readme/Selected%20Tiles.png" width="300"/>
+</p>
+
+---
+
+## 🎉 Personality Popup
+
+<p align="center">
+  <img src="./public/readme/Pop%20Up%20Screen.png" width="300"/>
+</p>
+
+---
+
+## 🏆 Result Screen
+
+<p align="center">
+  <img src="./public/readme/Result%20Screen.png" width="300"/>
+</p>
+
+---
 
 # 🎨 Design System
 
