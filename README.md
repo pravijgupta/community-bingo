@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="./public/readme/Landing%20page.png" width="220" />
+  <img src="./public/readme/Landing%20Page.png" width="220" />
   &nbsp;&nbsp;&nbsp;
   <img src="./public/readme/Result%20Screen.png" width="220" />
 </p>
