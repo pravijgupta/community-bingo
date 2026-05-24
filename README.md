@@ -13,6 +13,12 @@
   Experience community living nostalgia through a fun, shareable, mobile-first web game.
 </p>
 
+<p align="center">
+  <img src="./public/readme/Bingo%20Screen.png" width="220" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="./public/readme/Result%20Screen.png" width="220" />
+</p>
+
 ---
 
 # ✨ Overview
@@ -23,11 +29,11 @@ Players mark relatable community-living experiences on a 4×4 bingo grid and unl
 
 The experience is crafted to feel:
 
-* 🎮 Playful
-* 📱 Mobile-native
-* ⚡ Fast & lightweight
-* 🎨 Visually nostalgic
-* 📤 Socially shareable
+- 🎮 Playful
+- 📱 Mobile-native
+- ⚡ Fast & lightweight
+- 🎨 Visually nostalgic
+- 📤 Socially shareable
 
 ---
 
@@ -44,16 +50,66 @@ Users:
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Landing Page
+
+<p align="center">
+  <img src="./public/readme/Landing%20Page.png" width="260"/>
+</p>
+
+---
+
+## ✍️ Name Entry Screen
+
+<p align="center">
+  <img src="./public/readme/Input%20Screen.png" width="260"/>
+</p>
+
+---
+
+## 🎮 Bingo Gameplay
+
+<p align="center">
+  <img src="./public/readme/Bingo%20Screen.png" width="260"/>
+</p>
+
+---
+
+## ✅ Selected Tiles State
+
+<p align="center">
+  <img src="./public/readme/Selected%20Tiles.png" width="260"/>
+</p>
+
+---
+
+## 🎉 Personality Popup
+
+<p align="center">
+  <img src="./public/readme/Pop%20Up%20Screen.png" width="260"/>
+</p>
+
+---
+
+## 🏆 Result Screen
+
+<p align="center">
+  <img src="./public/readme/Result%20Screen.png" width="260"/>
+</p>
+
+---
+
 # 📸 Screens & User Flow
 
 ## 1️⃣ Landing Screen
 
 ### Features
 
-* MyGate 10th Anniversary branding
-* Retro pixel-art visuals
-* Community Bingo hero banner
-* Animated CTA button
+- MyGate 10th Anniversary branding
+- Retro pixel-art visuals
+- Community Bingo hero banner
+- Animated CTA button
 
 ### Main CTA
 
@@ -67,9 +123,9 @@ Play Now
 
 ### Features
 
-* Retro-styled popup window
-* Player name personalization
-* Smooth transition animations
+- Retro-styled popup window
+- Player name personalization
+- Smooth transition animations
 
 ### Prompt
 
@@ -83,19 +139,19 @@ What would you like to be called?
 
 ## 🎯 Bingo Grid
 
-* 4×4 interactive bingo board
-* 16 relatable society-life scenarios
-* Real-time strike interactions
-* Audio + visual feedback
+- 4×4 interactive bingo board
+- 16 relatable society-life scenarios
+- Real-time strike interactions
+- Audio + visual feedback
 
 ### Interaction Effects
 
-| Action            | Feedback            |
-| ----------------- | ------------------- |
-| Tile Strike       | Chalk / Pixel sound |
-| Tile Toggle       | Animation feedback  |
-| Column Completion | Personality popup   |
-| Big Milestones    | Confetti burst      |
+| Action | Feedback |
+|---|---|
+| Tile Strike | Chalk / Pixel sound |
+| Tile Toggle | Animation feedback |
+| Column Completion | Personality popup |
+| Big Milestones | Confetti burst |
 
 ---
 
@@ -103,12 +159,12 @@ What would you like to be called?
 
 When a full column is completed, users receive personality-based messages.
 
-| Column | Popup Message                     |
-| ------ | --------------------------------- |
-| A      | "You're a bit of a rule-bender"   |
-| B      | "You're a reliable resident"      |
-| C      | "You're a true gated-life native" |
-| D      | "You're a social butterfly"       |
+| Column | Popup Message |
+|---|---|
+| A | "You're a bit of a rule-bender" |
+| B | "You're a reliable resident" |
+| C | "You're a true gated-life native" |
+| D | "You're a social butterfly" |
 
 ---
 
@@ -118,63 +174,12 @@ The final result depends on the total number of bingo tiles selected.
 
 ## 🏆 Result Tiers
 
-| Score | Title                 | Description                               |
-| ----- | --------------------- | ----------------------------------------- |
-| 0–4   | The Community Newbie  | Just getting started with society life    |
-| 5–8   | The Community Regular | Found your rhythm in community life       |
-| 9–12  | The Community Pro     | You know the community, and they know you |
-| 13–16 | The Society Legend    | You've seen it all. Been there, done that |
-
----
----
-
-# 📸 Screenshots
-
-## 🏠 Landing Page
-
-<p align="center">
-  <img src="./public/readme/Landing%20Page.png" width="300"/>
-</p>
-
----
-
-## ✍️ Name Entry Screen
-
-<p align="center">
-  <img src="./public/readme/Input%20Screen.png" width="300"/>
-</p>
-
----
-
-## 🎮 Bingo Gameplay
-
-<p align="center">
-  <img src="./public/readme/Bingo%20Screen.png" width="300"/>
-</p>
-
----
-
-## ✅ Selected Tiles State
-
-<p align="center">
-  <img src="./public/readme/Selected%20Tiles.png" width="300"/>
-</p>
-
----
-
-## 🎉 Personality Popup
-
-<p align="center">
-  <img src="./public/readme/Pop%20Up%20Screen.png" width="300"/>
-</p>
-
----
-
-## 🏆 Result Screen
-
-<p align="center">
-  <img src="./public/readme/Result%20Screen.png" width="300"/>
-</p>
+| Score | Title | Description |
+|---|---|---|
+| 0–4 | The Community Newbie | Just getting started with society life |
+| 5–8 | The Community Regular | Found your rhythm in community life |
+| 9–12 | The Community Pro | You know the community, and they know you |
+| 13–16 | The Society Legend | You've seen it all. Been there, done that |
 
 ---
 
@@ -186,23 +191,23 @@ The application follows a bold retro gaming aesthetic inspired by classic 8-bit 
 
 ### Theme Highlights
 
-* Pixel-art inspired UI
-* Vibrant primary colors
-* Retro game interactions
-* Arcade-style animations
-* High contrast interface
-* Nostalgic microinteractions
+- Pixel-art inspired UI
+- Vibrant primary colors
+- Retro game interactions
+- Arcade-style animations
+- High contrast interface
+- Nostalgic microinteractions
 
 ---
 
 ## 🔤 Typography
 
-| Usage       | Font     |
-| ----------- | -------- |
-| Headers     | Retrobit |
-| Buttons     | Retrobit |
+| Usage | Font |
+|---|---|
+| Headers | Retrobit |
+| Buttons | Retrobit |
 | Bingo Tiles | Retrobit |
-| UI Labels   | Retrobit |
+| UI Labels | Retrobit |
 
 ---
 
@@ -210,30 +215,29 @@ The application follows a bold retro gaming aesthetic inspired by classic 8-bit 
 
 ## ✅ Core Features
 
-* Mobile-only optimized gameplay
-* Interactive bingo system
-* Personality-based progression
-* Dynamic score calculation
-* Audio feedback system
-* Retro UI animations
-* Shareable result generation
-* Web Share API integration
-* Confetti celebration effects
-* Mute / unmute toggle
-
+- Mobile-only optimized gameplay
+- Interactive bingo system
+- Personality-based progression
+- Dynamic score calculation
+- Audio feedback system
+- Retro UI animations
+- Shareable result generation
+- Web Share API integration
+- Confetti celebration effects
+- Mute / unmute toggle
 
 ---
 
 # ⚙️ Tech Stack
 
-| Technology             | Purpose                 |
-| ---------------------- | ----------------------- |
-| React 18+              | Frontend framework      |
-| Vite                   | Lightning-fast bundler  |
-| React Context API      | State management        |
+| Technology | Purpose |
+|---|---|
+| React 18+ | Frontend framework |
+| Vite | Lightning-fast bundler |
+| React Context API | State management |
 | HTML-to-Image / Canvas | Result image generation |
-| Web Share API          | Native social sharing   |
-| CSS / Tailwind         | Styling system          |
+| Web Share API | Native social sharing |
+| CSS / Tailwind | Styling system |
 
 ---
 
@@ -243,12 +247,12 @@ Community Bingo is intentionally optimized for mobile devices.
 
 ## Focus Areas
 
-* Fast touch interactions
-* Responsive layouts
-* Smooth animations
-* Lightweight assets
-* Native-feeling gameplay
-* Social sharing convenience
+- Fast touch interactions
+- Responsive layouts
+- Smooth animations
+- Lightweight assets
+- Native-feeling gameplay
+- Social sharing convenience
 
 ---
 
@@ -256,16 +260,16 @@ Community Bingo is intentionally optimized for mobile devices.
 
 Users can generate and share:
 
-* 🖼️ Personalized result cards
-* 🎭 Community personality titles
-* 📊 Final score
-* 🎯 Mini bingo board preview
+- 🖼️ Personalized result cards
+- 🎭 Community personality titles
+- 📊 Final score
+- 🎯 Mini bingo board preview
 
 ### Supported Platforms
 
-* WhatsApp
-* Instagram Stories
-* Native mobile sharing
+- WhatsApp
+- Instagram Stories
+- Native mobile sharing
 
 ---
 
@@ -273,22 +277,20 @@ Users can generate and share:
 
 ## Audio
 
-* Pixel strike sounds
-* Column completion ping
-* Toggle-based mute system
+- Pixel strike sounds
+- Column completion ping
+- Toggle-based mute system
 
 ## Visual Effects
 
-* Subtle tile confetti
-* Full-screen celebration bursts
-* Pixel-style transitions
-* Retro hover interactions
+- Subtle tile confetti
+- Full-screen celebration bursts
+- Pixel-style transitions
+- Retro hover interactions
 
 ---
 
-
 # 🚀 Getting Started
-
 
 
 ## Navigate to Project
@@ -330,41 +332,15 @@ src/
 
 # 🎯 Performance Goals
 
-* ⚡ Fast initial load
-* 📱 Mobile-first responsiveness
-* 🎮 Smooth 60fps interactions
-* 🪶 Lightweight bundle size
-* 🔋 Low resource usage
+- ⚡ Fast initial load
+- 📱 Mobile-first responsiveness
+- 🎮 Smooth 60fps interactions
+- 🪶 Lightweight bundle size
+- 🔋 Low resource usage
 
 ---
 
-# 🧪 Future Enhancements
 
-Potential future upgrades:
-
-* Daily challenges
-* Multiplayer mode
-* Leaderboards
-* Animated avatars
-* Theme switching
-* Seasonal community packs
-* Achievement badges
-
----
-
-# 🤝 Contributing
-
-Contributions, ideas, and improvements are welcome.
-
-```bash
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
-```
-
----
 
 # 📄 License
 
@@ -373,3 +349,8 @@ This project was created as a celebratory interactive experience for MyGate.
 All brand assets and creative materials belong to their respective owners.
 
 ---
+
+
+<p align="center">
+  Made with nostalgia, pixels, and community chaos 🎮🏢
+</p>
